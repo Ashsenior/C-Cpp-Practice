@@ -2,13 +2,13 @@
 #include <string.h>
 
 int main(){
-    int n,i=0,updated=0;
+    int i=0,updated=0;
+    long long n;
     int arr[10]={0,0,0,0,0,0,0,0,0,0};
     printf(" Enter any number : ");
-    scanf("%d",&n);
+    scanf("%lld",&n);
     while (n!=0){
         int a = n%10;
-        printf("%d",a);
         n = n/10;
         arr[a]++;
     }

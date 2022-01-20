@@ -2,22 +2,25 @@
 #include <string.h>
 
 int main(){
-    char big[1],small[1];
-    int match = 1;
+    int sbig,ssma;
+    printf(" Enter length of big and small array : ");
+    scanf("%d %d",&sbig,&ssma);
+    char big[sbig],small[ssma];
+    int match = 0;
     printf(" Enter bigger array : ");
     scanf("%s",&big);
     printf(" Enter smaller array : ");
     scanf("%s",&small);
 
-    for (int i=0;i<=strlen(big);i++){
-        for (int k=0;k<strlen(small);k++){
+    for (int i=0;i<=sbig;i++){
+        for (int k=0;k<ssma;k++){
             if (big[i]==small[k]){
                 match++;
                 break;
             }
         }
     }
-    if (match==strlen(small)){
+    if (match==ssma){
         printf(" Smaller array is the subset of the bigger array ");
     }
     else{

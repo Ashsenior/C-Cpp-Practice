@@ -7,7 +7,7 @@ void gross(float n){
         HRA = n*0.8;
         printf(" Your Gross salary is : %f",n+DA+HRA);
     }
-    else if(n<=20000 && n>10000){
+    else if(n<=20000){
         DA = n*0.25;
         HRA = n*0.9;
         printf(" Your Gross salary is : %f",n+DA+HRA);

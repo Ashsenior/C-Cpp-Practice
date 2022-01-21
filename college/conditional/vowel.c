@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    char vowels[5] = {'a','e','i','o','u'};
+    char vowels[10] = {'a','e','i','o','u','A','E','I','O','U'};
     
     char a;
     int n=0;
     printf(" Enter any charchter : ");
     scanf("%c",&a);
-    for (int i=0;i<5;i++){
+    for (int i=0;i<10;i++){
         if (a==vowels[i]){
             n=1;
             break;

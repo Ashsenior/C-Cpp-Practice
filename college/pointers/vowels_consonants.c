@@ -3,9 +3,9 @@
 
 void find(char *a,int n){
     char vowels[10] = "aeiouAEIOU";
-    int is_vow = 0;
     int count_vow=0,count_con=0;
     for (int i=0;i<n;i++){
+        int is_vow = 0;
         for (int j=0;j<5;j++){
             if ((*a)==vowels[j]){
                 count_vow++;
@@ -24,7 +24,7 @@ void find(char *a,int n){
 
 int main(){
     char a[] = "heythere";
-    int n = strlen(a)-1;
+    int n = strlen(a);
     find(a,n);
     return 0;
 }

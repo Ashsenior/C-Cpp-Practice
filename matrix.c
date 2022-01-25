@@ -9,7 +9,7 @@ void display(int arr[m][n],int w,int x){
         }
         printf("\n");
     }
-    printf("----------------");
+    printf("----------------\n");
 }
 
 void sum(int a[m][n],int b[m][n],int w,int x){

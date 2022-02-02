@@ -11,11 +11,19 @@ int main(){
     scanf("%s",&big);
     printf(" Enter smaller array : ");
     scanf("%s",&small);
-
+    char matched[ssma];
     for (int i=0;i<=sbig;i++){
         for (int k=0;k<ssma;k++){
-            if (big[i]==small[k]){
+            int done = 0;
+            for (int j=0;j<ssma;j++){
+                if (big[i]==matched[j]){
+                    done=1;
+                    break;
+                }
+            }
+            if (big[i]==small[k] && done!=1){
                 match++;
+                matched[k]=small[k];
                 break;
             }
         }

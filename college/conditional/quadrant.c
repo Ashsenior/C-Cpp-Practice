@@ -2,6 +2,7 @@
 
 int main(){
     int a,b;
+    printf(" Enter x and y :");
     scanf("%d %d",&a,&b);
     if (a>0 && b>0){
         printf(" 1st quadrant ");

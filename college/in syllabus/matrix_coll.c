@@ -88,7 +88,7 @@ int main(){
     b = input_mat(rc[1][0],rc[1][1]);
     do{
         int choice;
-        printf(" Enter your choice (0/1/2/3) : ");
+        printf("(0 Addition/1 Difference/2 transpose/3 Dot Product/4 Display) : ");
         scanf("%d",&choice);
         switch (choice)
         {

@@ -7,6 +7,9 @@ void findall(int radius){
     printf("Area is %.2f \n",a);
 }
 int main(){
-    findall(4);
+    int r;
+    printf(" Enter the radius of circle :");
+    scanf("%d",&r);
+    findall(r);
     return 0;
 }

@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int a,b;
+    double a,b;
     printf(" Enter x and y :");
-    scanf("%d %d",&a,&b);
+    scanf("%lf %lf",&a,&b);
+    printf("%lf %lf",a,b);
     if (a>0 && b>0){
         printf(" 1st quadrant ");
     }

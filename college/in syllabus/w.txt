@@ -1,0 +1,9 @@
+
+ Worker Name: rohan
+ Salary : 23000
+
+ Worker Name: raj
+ Salary : 34000
+
+ Worker Name: rega
+ Salary : 12400

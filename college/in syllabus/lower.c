@@ -9,8 +9,9 @@ int main () {
     for(i=0; str[i] != '\0'; i++) { 
         if(str[i]>='A' && str[i]<='Z') {upper++;}
         else if(str[i]>='a' && str[i]<='z') {lower++;}
-        else if(str[i]>='1' && str[i]<='9') { num++;}
-        else {special++;}}
+        else if(str[i]>='0' && str[i]<='9') { num++;}
+        else {special++;}
+    }
     printf("\n Upper case letters: %d", upper);
     printf("\n Lower case letters: %d", lower);
     printf("\n Numbers: %d",num);
